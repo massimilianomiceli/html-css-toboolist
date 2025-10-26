@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0px;
+}
+
 #sito-intestazione{
     font-family: "Inter", sans-serif;
     height: 60px;
@@ -37,8 +41,9 @@
 .sito-formattazione-toolbar{
     padding: 15px 5% 5px 5%;
     height: 50px;
-    border: 5px;
-    border-color: #c2212198;   
+    border-bottom-width: 1.5px;
+    border-bottom-style: solid;
+    border-color: #F6F8FA;   
 }
 
 .sito-formattazione-elenco{
@@ -64,12 +69,12 @@ li{
 }
 
 .bottone-forma{
-    padding: 5px 15px 5px 15px;  
+    padding: 5px 10px 5px 10px;  
     border-radius: 5px;
-    height: 30px;
+    height: 25px;
     border-width: 1.5px;
     border-style: solid;
-    font-size: smaller;
+    font-size: x-small;
     font-weight: 10%;
 }
 
