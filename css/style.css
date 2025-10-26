@@ -31,7 +31,7 @@ body{
 .sito-formattazione-generale{
     font-family: "Inter", sans-serif;
     background-color: #F6F8FA;
-    padding: 2.5% 15% 2.5% 15%;    
+    padding: 2.5% 15% 1% 15%;    
 }
 
 .sito-formattazione-contenuto{
@@ -75,7 +75,6 @@ li{
     border-width: 1.5px;
     border-style: solid;
     font-size: x-small;
-    font-weight: 10%;
 }
 
 .bottone-colore-azzurro{
@@ -97,15 +96,15 @@ li{
 .voce-simbolo-v{
     display: inline-block;
     margin-right: 5px;
-    height: 20px;
-    width: 20px;
-    padding: 2px 1px 2px 1px;  
+    height: 15px;
+    width: 15px;
+    padding: 1px 1px 1px 1px;  
     border-radius: 100%;
     border-width: 1.5px;
     border-style: solid;
     text-align: center;
-    font-weight: bolder;
-    font-size: 10px;
+    font-size: 8px;
+    font-weight: 900;
     border-color: #6CAD99;
     color: #6CAD99; 
 }
@@ -113,15 +112,14 @@ li{
 .voce-simbolo-x{
     display: inline-block;
     margin-right: 5px;
-    height: 20px;
-    width: 20px;
-    padding: 2px 1px 2px 1px;  
+    height: 15px;
+    width: 15px;
+    padding: 1px 1px 1px 1px;  
     border-radius: 100%;
     border-width: 1.5px;
     border-style: solid;
     text-align: center;
-    font-weight: bolder;
-    font-size: 10px;
+    font-size: 8px;
     border-color: #AA4D55;
     color: #AA4D55; 
 }
@@ -134,7 +132,6 @@ li{
     border-width: 1.5px;
     border-style: solid;
     font-size: xx-small;
-    font-weight: 10%;
     color: white;
     text-align: center;
 }
