@@ -1,31 +1,24 @@
 *{
-    margin 0;
-    padding 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    margin: 0px;
 }
 
 #sito-intestazione{
     font-family: "Inter", sans-serif;
-    height: 60px;
+    height: 70px;
+    padding: 10px 20px;
 }
 
 #sito-logo{
-    height: 60px;
-    width: auto;
-    padding: 10px 0px 10px 10px;
+    height: 50px;
+    vertical-align: middle;
 }
 
 #sito-titolo{
-    display: inline-block;
-    position: fixed;
-    margin: 0;
-    height: 60px;
-    padding: 10px 10px 10px 5px;
-    font-size: 40;
+    display: inline;
+    font-size: 40px;
+    vertical-align: middle;
 }
 
 .sito-formattazione-generale{
@@ -58,8 +51,9 @@ ul{
 
 li{
     font-size: small;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
 }
 
 .sezione-titolo{
@@ -93,36 +87,29 @@ li{
     list-style: none;
 }
 
-.voce-simbolo-v{
+.voce-simbolo{
+    border-radius: 50%;
+    border: 1px solid;
     display: inline-block;
-    margin-right: 5px;
-    height: 15px;
-    width: 15px;
-    padding: 1px 1px 1px 1px;  
-    border-radius: 100%;
-    border-width: 1.5px;
-    border-style: solid;
+    height: 19px;
+    width: 19px;
     text-align: center;
-    font-size: 8px;
-    font-weight: 900;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.voce-simbolo-v{
     border-color: #6CAD99;
     color: #6CAD99; 
 }
 
 .voce-simbolo-x{
-    display: inline-block;
-    margin-right: 5px;
-    height: 15px;
-    width: 15px;
-    padding: 1px 1px 1px 1px;  
-    border-radius: 100%;
-    border-width: 1.5px;
-    border-style: solid;
-    text-align: center;
-    font-size: 8px;
     border-color: #AA4D55;
     color: #AA4D55; 
 }
+
+
 
 .tag-categoria-forma{
     padding: 2.5px 5px 2.5px 5px;  
